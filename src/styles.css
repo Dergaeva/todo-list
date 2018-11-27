@@ -1,0 +1,133 @@
+/* RESET START */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #111;
+  font: 400 12px/1 'Poppins', sans-serif;
+  background-color: #f4f6f8;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: #111;
+}
+a, a:hover {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+input, textarea, button {
+  outline: none;
+  border: none;
+}
+textarea {
+  resize: vertical;
+}
+button {
+  cursor: pointer;
+}
+label {
+  margin-bottom: 0;
+}
+select, select:hover {
+  color: inherit;
+  background: #fff;
+}
+option, option:hover {
+  color: inherit;
+  background: #fff;
+}
+input::-webkit-input-placeholder {
+  transition: all .3s linear;
+  color: rgba(0, 0, 0, .8);
+}
+input::-moz-placeholder {
+  transition: all .3s linear;
+  color: rgba(0, 0, 0, .8);
+}
+input:-moz-placeholder {
+  transition: all .3s linear;
+  color: rgba(0, 0, 0, .8);
+}
+input:-ms-input-placeholder {
+  transition: all .3s linear;
+  color: rgba(0, 0, 0, .8);
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent
+}
+input:focus::-moz-placeholder {
+  color: transparent
+}
+input:focus:-moz-placeholder {
+  color: transparent
+}
+input:focus:-ms-input-placeholder {
+  color: transparent
+}
+/* RESET END */
+
+/* DEFAULT COMPONENT START */
+.btn {
+  display: inline-block;
+  font-size: 17px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 15px 30px;
+  text-align: center;
+  transition: all .2s linear;
+}
+.btn:hover {
+  background: lightslategrey;
+}
+.btn-red {
+  background: red;
+}
+.btn-red:hover {
+  background: darkred;
+}
+/* DEFAULT COMPONENT END */
+
+/* CUSTOM STYLE */
+body {
+  background: url('img/login-bg-960x960.jpg') no-repeat center / cover;
+  height: 100vh;
+  box-shadow: 100vw 0 0 rgba(0, 0, 0, .8) inset;
+  overflow: hidden;
+  padding: 0;
+}
+.app-title {
+  font-size: 46px;
+  line-height: 52px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -0.8px;
+  color: #fff;
+  padding-top: 50px;
+}
+.todo-title {
+  font-size: 17px;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 400;
+  line-height: normal;
+}
+#search {
+  position: relative;
+  padding: 10px 20px;
+  margin-top: 15px;
+  box-shadow: 1px 1px 9px 0 rgba(50, 50, 50, 0.75);
+}
+

@@ -1,0 +1,34 @@
+.todo-item {
+  padding: 10px 0;
+  border-top: solid 1px #ddd;
+  min-height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.todo-checkbox {
+  flex-shrink: 0;
+  margin: auto 1ex auto 0;
+}
+.todo-title {
+  flex-grow: 1;
+  padding-left: 11px;
+}
+.todo-complete {
+  text-decoration: line-through;
+}
+.btn-delete {
+  position: absolute;
+  left: auto;
+  right: 15px;
+  top: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: red;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  padding: 0;
+}
+
